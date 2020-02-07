@@ -1,0 +1,22 @@
+<br>
+<div class="col-12">
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" aria-describedby="basic-addon1"[(ngModel)]="persona.nombre">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" aria-describedby="basic-addon1"[(ngModel)]="persona.apellido">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="DNI" aria-label="DNI" aria-describedby="basic-addon1"[(ngModel)]="persona.dni">
+      </div>
+      <button class="btn btn-success btn-block" (click)="save()">Guardar</button>
+</div>
